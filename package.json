@@ -1,0 +1,22 @@
+{
+  "name": "@xancy-plugin/core",
+  "version": "0.0.0",
+  "description": "Plugins for Xancy.",
+  "main": "index.js",
+  "repository": "git@github.com:Xancy/plugin.git",
+  "author": "Alex Fang <deeno@qq.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
