@@ -1,6 +1,7 @@
 {
   "name": "@xancy-plugin/core",
   "version": "0.0.0",
+  "type": "module",
   "description": "Plugins for Xancy.",
   "main": "index.js",
   "repository": "git@github.com:Xancy/plugin.git",
