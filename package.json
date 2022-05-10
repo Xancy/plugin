@@ -9,6 +9,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "clean": "lerna clean",
     "commit": "cz"
   },
   "devDependencies": {
