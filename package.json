@@ -9,7 +9,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "clean": "lerna clean",
+    "mod": "lerna",
     "commit": "cz",
     "lint": "eslint --ext=.js,.ts ./packages"
   },
