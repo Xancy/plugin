@@ -8,6 +8,9 @@
   "author": "Alex Fang <deeno@qq.com>",
   "license": "MIT",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "mod": "lerna",
     "commit": "cz",
