@@ -11,7 +11,7 @@
   "main": "index.js",
   "scripts": {
     "commit": "cz",
-    "lint": "eslint --fix"
+    "lint": "eslint --fix --concurrency auto"
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
