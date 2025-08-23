@@ -1,25 +1,22 @@
 {
   "name": "@xancy-plugin/core",
-  "version": "0.0.0",
   "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.15.0",
   "description": "Plugins for Xancy.",
-  "main": "index.js",
-  "repository": "git@github.com:Xancy/plugin.git",
   "author": "Alex Fang <deeno@qq.com>",
   "license": "MIT",
-  "private": true,
+  "repository": "git@github.com:Xancy/plugin.git",
+  "main": "index.js",
   "scripts": {
     "commit": "cz",
-    "lint": "eslint --ext=.js,.ts ./packages"
+    "lint": "eslint --fix"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "catalog:",
-    "@typescript-eslint/parser": "catalog:",
+    "@antfu/eslint-config": "catalog:",
     "commitizen": "catalog:",
     "cz-conventional-changelog": "catalog:",
-    "eslint": "catalog:",
-    "eslint-plugin-prettier": "catalog:",
-    "prettier": "catalog:"
-  },
-  "packageManager": "pnpm@10.15.0"
+    "eslint": "catalog:"
+  }
 }
