@@ -6,5 +6,4 @@ catalog:
   commitizen: ^4.2.4
   cz-conventional-changelog: 3.3.0
   eslint: ^9.34.0
-  sort-package-json: ^3.4.0
   typescript: ^5.9.2

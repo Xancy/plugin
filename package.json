@@ -13,15 +13,13 @@
     "build": "tsc -b",
     "build:clean": "tsc -b --clean",
     "commit": "cz",
-    "lint": "eslint --fix --concurrency auto",
-    "package:sort": "sort-package-json \"package.json\" \"packages/*/package.json\""
+    "lint": "eslint --fix --concurrency auto"
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
     "commitizen": "catalog:",
     "cz-conventional-changelog": "catalog:",
     "eslint": "catalog:",
-    "sort-package-json": "catalog:",
     "typescript": "catalog:"
   }
 }
