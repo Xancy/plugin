@@ -21,6 +21,9 @@ catalogs:
     sort-package-json:
       specifier: ^3.4.0
       version: 3.4.0
+    typescript:
+      specifier: ^5.9.2
+      version: 5.9.2
 
 importers:
 
@@ -41,6 +44,9 @@ importers:
       sort-package-json:
         specifier: 'catalog:'
         version: 3.4.0
+      typescript:
+        specifier: 'catalog:'
+        version: 5.9.2
 
   packages/path: {}
 

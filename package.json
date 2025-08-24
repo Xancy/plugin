@@ -1,14 +1,17 @@
 {
   "name": "@xancy-plugin/core",
+  "type": "module",
   "version": "0.0.0",
   "private": true,
+  "packageManager": "pnpm@10.15.0",
   "description": "Plugins for Xancy.",
-  "repository": "git@github.com:Xancy/plugin.git",
-  "license": "MIT",
   "author": "Alex Fang <deeno@qq.com>",
-  "type": "module",
+  "license": "MIT",
+  "repository": "git@github.com:Xancy/plugin.git",
   "main": "index.js",
   "scripts": {
+    "build": "tsc -b",
+    "build:clean": "tsc -b --clean",
     "commit": "cz",
     "lint": "eslint --fix --concurrency auto",
     "package:sort": "sort-package-json \"package.json\" \"packages/*/package.json\""
@@ -18,7 +21,7 @@
     "commitizen": "catalog:",
     "cz-conventional-changelog": "catalog:",
     "eslint": "catalog:",
-    "sort-package-json": "catalog:"
-  },
-  "packageManager": "pnpm@10.15.0"
+    "sort-package-json": "catalog:",
+    "typescript": "catalog:"
+  }
 }
