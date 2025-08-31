@@ -1,15 +1,15 @@
 {
   "name": "@xancy-plugin/path",
+  "type": "module",
   "version": "0.0.0",
   "description": "",
+  "author": "",
+  "license": "MIT",
   "keywords": [
     "xancy",
     "plugin",
     "path"
   ],
-  "license": "MIT",
-  "author": "",
-  "type": "module",
   "main": "dist/index.js",
   "scripts": {}
 }
