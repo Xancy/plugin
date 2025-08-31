@@ -1,8 +1,12 @@
 {
+  "extends": "@tsconfig/node20/tsconfig.json",
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
     "target": "es2020",
     "jsx": "react-jsx",
+    "lib": [
+      "ES2020"
+    ],
     "moduleDetection": "force",
     // File Layout
     // "rootDir": "./src",
@@ -12,7 +16,6 @@
     // See also https://aka.ms/tsconfig/module
     "module": "node20",
     "moduleResolution": "node16",
-    "types": [],
 
     // Style Options
     // "noImplicitReturns": true,

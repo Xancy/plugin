@@ -17,6 +17,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
+    "@tsconfig/node20": "catalog:",
+    "@types/node": "catalog:",
     "commitizen": "catalog:",
     "cz-conventional-changelog": "catalog:",
     "eslint": "catalog:",

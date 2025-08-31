@@ -3,6 +3,8 @@ packages:
 
 catalog:
   '@antfu/eslint-config': ^5.2.1
+  '@tsconfig/node20': ^20.1.6
+  '@types/node': 24.3.0
   commitizen: ^4.2.4
   cz-conventional-changelog: 3.3.0
   eslint: ^9.34.0
