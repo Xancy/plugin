@@ -10,8 +10,8 @@
   "repository": "git@github.com:Xancy/plugin.git",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -b",
-    "build:clean": "tsc -b --clean",
+    "build": "tsc --build",
+    "build:clean": "tsc --build --clean",
     "commit": "cz",
     "lint": "eslint --fix --concurrency auto"
   },
