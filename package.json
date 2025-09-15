@@ -15,9 +15,13 @@
     "commit": "cz",
     "lint": "eslint --fix --concurrency auto"
   },
+  "dependencies": {
+    "lodash": "catalog:"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
     "@tsconfig/node20": "catalog:",
+    "@types/lodash": "catalog:",
     "@types/node": "catalog:",
     "commitizen": "catalog:",
     "cz-conventional-changelog": "catalog:",
