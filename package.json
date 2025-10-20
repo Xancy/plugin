@@ -13,7 +13,9 @@
     "build": "tsc --build",
     "build:clean": "tsc --build --clean",
     "commit": "cz",
-    "lint": "eslint --fix --concurrency auto"
+    "lint": "eslint --fix --concurrency auto",
+    "test": "mocha",
+    "pretest": "pnpm build:clean && pnpm build"
   },
   "dependencies": {
     "lodash": "catalog:"
@@ -21,11 +23,16 @@
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
     "@tsconfig/node20": "catalog:",
+    "@types/chai": "catalog:test",
     "@types/lodash": "catalog:",
+    "@types/mocha": "catalog:test",
     "@types/node": "catalog:",
+    "chai": "catalog:test",
     "commitizen": "catalog:",
     "cz-conventional-changelog": "catalog:",
     "eslint": "catalog:",
+    "mocha": "catalog:test",
+    "ts-node": "catalog:test",
     "typescript": "catalog:"
   }
 }

@@ -51,5 +51,8 @@
   ],
   "include": [
     "packages/*/src/**/*.ts"
+  ],
+  "exclude": [
+    "packages/*/test/**/*.ts"
   ]
 }
